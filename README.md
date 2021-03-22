@@ -1,3 +1,3 @@
 # Useful Links
 
-- [TensorFlow Hub](https://tfhub.dev/)
+- [React + Tailwind](https://github.com/lPaths/fe-starter-kit/tree/react-tailwind)
