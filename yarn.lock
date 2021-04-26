@@ -1219,10 +1219,10 @@
     postcss-nested "4"
     tailwindcss "npm:@tailwindcss/postcss7-compat@2.1.0"
 
-"@fsp/eslint-config@^0.2.7":
-  version "0.2.7"
-  resolved "http://localhost:4873/@fsp%2feslint-config/-/eslint-config-0.2.7.tgz#8bbf003bbe46e29fa260cf9cb0b2b74aee724200"
-  integrity sha512-vg8BY0/BL2cmLwqn5k0f4uRuRLOIiKBubD4jlyHHnsTsnABiUCN5a2Kuw4N/bRetmkOClUXB2y18YgU+eWUURg==
+"@fsp/eslint-config@^0.2.8":
+  version "0.2.8"
+  resolved "http://localhost:4873/@fsp%2feslint-config/-/eslint-config-0.2.8.tgz#112b3674179cd31540a894884c69a8b4aba2ae0e"
+  integrity sha512-BF/cXYheBWo8Zgo3nFl+8FpVsRZCXee2nytYno4/ickSlPuCDUDQnp16c8ch8dFkt1Pv/Z8vDXDkrZhl6YKA8g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "4.22.0"
     "@typescript-eslint/parser" "4.22.0"
@@ -1231,10 +1231,10 @@
     eslint-plugin-prettier "3.4.0"
     prettier "2.2.1"
 
-"@fsp/prettier@^1.0.0":
-  version "1.0.0"
-  resolved "http://localhost:4873/@fsp%2fprettier/-/prettier-1.0.0.tgz#93509a767cf71c98367d98d4bfb06d9b0562b494"
-  integrity sha512-rjJQe8marTcCTwvtlybPqrVt9jwYbpciCJ9J/0WZSaGsql3L2tAftC7WS1KisbQqCsXANrKjyPm3BrMlF30RLw==
+"@fsp/prettier@^1.0.1":
+  version "1.0.1"
+  resolved "http://localhost:4873/@fsp%2fprettier/-/prettier-1.0.1.tgz#a368dc1a380641d2724c1a45bae7e7a1a9dfb28e"
+  integrity sha512-laxPKhu+zADDI71eMepyk0SknPDmaNfi3N1MT376r7MUx87Ad7IPoBxAaVAN81MyOgfvUqWNMVLJU5cvSluJXA==
 
 "@fullhuman/postcss-purgecss@^3.1.3":
   version "3.1.3"
@@ -1850,10 +1850,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@17.0.3":
+"@types/react@*":
   version "17.0.3"
   resolved "http://localhost:4873/@types%2freact/-/react-17.0.3.tgz#ba6e215368501ac3826951eef2904574c262cc79"
   integrity sha512-wYOUxIgs2HZZ0ACNiIayItyluADNbONl7kt8lkLjVK8IitMH5QMyAh75Fwhmo37r1m7L2JaFj03sIfxBVDvRAg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@17.0.4":
+  version "17.0.4"
+  resolved "http://localhost:4873/@types%2freact/-/react-17.0.4.tgz#a67c6f7a460d2660e950d9ccc1c2f18525c28220"
+  integrity sha512-onz2BqScSFMoTRdJUZUDD/7xrusM8hBA2Fktk2qgaTYPCgPvWnDEgkrOs8hhPUf2jfcIXkJ5yK6VfYormJS3Jw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4711,7 +4720,50 @@ eslint-webpack-plugin@^2.5.2:
     normalize-path "^3.0.0"
     schema-utils "^3.0.0"
 
-eslint@7.24.0, eslint@^7.11.0:
+eslint@7.25.0:
+  version "7.25.0"
+  resolved "http://localhost:4873/eslint/-/eslint-7.25.0.tgz#1309e4404d94e676e3e831b3a3ad2b050031eb67"
+  integrity sha512-TVpSovpvCNpLURIScDRB6g5CYu/ZFq9GfX2hLNIV4dSBKxIWojeDODvYl3t0k0VtMxYeR8OXPCFE5+oHMlGfhw==
+  dependencies:
+    "@babel/code-frame" "7.12.11"
+    "@eslint/eslintrc" "^0.4.0"
+    ajv "^6.10.0"
+    chalk "^4.0.0"
+    cross-spawn "^7.0.2"
+    debug "^4.0.1"
+    doctrine "^3.0.0"
+    enquirer "^2.3.5"
+    eslint-scope "^5.1.1"
+    eslint-utils "^2.1.0"
+    eslint-visitor-keys "^2.0.0"
+    espree "^7.3.1"
+    esquery "^1.4.0"
+    esutils "^2.0.2"
+    file-entry-cache "^6.0.1"
+    functional-red-black-tree "^1.0.1"
+    glob-parent "^5.0.0"
+    globals "^13.6.0"
+    ignore "^4.0.6"
+    import-fresh "^3.0.0"
+    imurmurhash "^0.1.4"
+    is-glob "^4.0.0"
+    js-yaml "^3.13.1"
+    json-stable-stringify-without-jsonify "^1.0.1"
+    levn "^0.4.1"
+    lodash "^4.17.21"
+    minimatch "^3.0.4"
+    natural-compare "^1.4.0"
+    optionator "^0.9.1"
+    progress "^2.0.0"
+    regexpp "^3.1.0"
+    semver "^7.2.1"
+    strip-ansi "^6.0.0"
+    strip-json-comments "^3.1.0"
+    table "^6.0.4"
+    text-table "^0.2.0"
+    v8-compile-cache "^2.0.3"
+
+eslint@^7.11.0:
   version "7.24.0"
   resolved "http://localhost:4873/eslint/-/eslint-7.24.0.tgz#2e44fa62d93892bfdb100521f17345ba54b8513a"
   integrity sha512-k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ==
