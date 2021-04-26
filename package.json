@@ -12,7 +12,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "dependencies": {
-    "@tailwindcss/postcss7-compat": "2.1.0",
+    "@tailwindcss/postcss7-compat": "2.1.2",
     "autoprefixer": "^9",
     "customize-cra": "1.0.0",
     "postcss": "^7",
@@ -25,14 +25,14 @@
     "react-dom": "17.0.2",
     "react-scripts": "4.0.3",
     "source-map-explorer": "2.5.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.1.2",
     "typescript": "4.2.4",
     "web-vitals": "1.1.1",
     "webrtc-adapter": "7.7.1"
   },
   "devDependencies": {
     "@types/node": "14.14.41",
-    "@types/react": "17.0.3",
+    "@types/react": "17.0.4",
     "@types/react-dom": "17.0.3",
     "prettier": "2.2.1",
     "tslint": "6.1.3",
