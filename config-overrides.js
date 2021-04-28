@@ -2,6 +2,8 @@ const { join } = require('path')
 const { override, addBabelPlugins, overrideDevServer } = require('customize-cra')
 
 const additionalConfig = () => (config) => {
+  config.devtool = 'eval-cheap-module-source-map'
+
   require('react-app-rewire-postcss')(config, true)
 
   return config

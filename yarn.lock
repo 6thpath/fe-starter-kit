@@ -1201,15 +1201,15 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fsp/design-system@^0.1.1":
-  version "0.1.1"
-  resolved "http://localhost:4873/@fsp%2fdesign-system/-/design-system-0.1.1.tgz#b5d7be65f262e015d026451963b36b92f7b6d30a"
-  integrity sha512-aUIJXhF6JuzJxOB3cO451E74F+9PKk59gFN8OO7UvfllYw5Qd7g4MMpfRLmSn6IQShE7bR1E7rkecUIgrpQbrA==
+"@fsp/design-system@^0.3.1":
+  version "0.3.1"
+  resolved "http://localhost:4873/@fsp%2fdesign-system/-/design-system-0.3.1.tgz#8db7de5281011c5721f0484d9911e88411675abd"
+  integrity sha512-yAgCkmdgojMcDu99uF9c0JKmjvOu22ux27mgcaVpswk8H3J9ARZhJrLORtfBdbNixP89Xyp76Kg9m5U1sgNfIg==
   dependencies:
     "@ctrl/tinycolor" "3.4.0"
     "@tailwindcss/forms" "0.3.2"
     "@tailwindcss/line-clamp" "0.2.0"
-    "@tailwindcss/postcss7-compat" "2.1.0"
+    "@tailwindcss/postcss7-compat" "2.1.2"
     autoprefixer "9"
     deepmerge "4.2.2"
     is-plain-object "5.0.0"
@@ -1217,7 +1217,7 @@
     postcss-custom-properties "10"
     postcss-import "12"
     postcss-nested "4"
-    tailwindcss "npm:@tailwindcss/postcss7-compat@2.1.0"
+    tailwindcss "npm:@tailwindcss/postcss7-compat@2.1.2"
 
 "@fsp/eslint-config@^0.2.8":
   version "0.2.8"
@@ -1668,10 +1668,10 @@
   resolved "http://localhost:4873/@tailwindcss%2fline-clamp/-/line-clamp-0.2.0.tgz#7f30f26ed3835d64d1eb5a9b0d60cf5291dd2a3b"
   integrity sha512-+jXSdRK3/9V/BCPCr+iNpMMhxWMMv62vn/AS2b3/ClmueGuhCijW3bUwO1IiHnE7uCaF74Sli8jUCv9djwvpLg==
 
-"@tailwindcss/postcss7-compat@2.1.0", "tailwindcss@npm:@tailwindcss/postcss7-compat@2.1.0":
-  version "2.1.0"
-  resolved "http://localhost:4873/@tailwindcss%2fpostcss7-compat/-/postcss7-compat-2.1.0.tgz#1393b99d9e60783990baa1b3e2ae69afac12f660"
-  integrity sha512-1Z6nPrkOp0Aa+NH5q6DYNizKf3qc6x735We0kpnIj1k5Cn+RkP69z+MpFLvz5lGGPRV/i+uS9uItoafnjIoZoQ==
+"@tailwindcss/postcss7-compat@2.1.2", "tailwindcss@npm:@tailwindcss/postcss7-compat@2.1.2":
+  version "2.1.2"
+  resolved "http://localhost:4873/@tailwindcss%2fpostcss7-compat/-/postcss7-compat-2.1.2.tgz#4ae2a3a3c05622ee04307997b0f8bea5c8dbc2b6"
+  integrity sha512-bH2kw6uyqLnDMP8wzDUsis5ovrsRzfHEyiL1McADvqlW54g6y0KVHX1xzO7PH8Fl5s0Sq8vDOAp4+3V8MEcZ9g==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.1.3"
     autoprefixer "^9"
@@ -2187,6 +2187,11 @@
   version "4.2.2"
   resolved "http://localhost:4873/@xtuc%2flong/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
+
+"@yarnpkg/lockfile@^1.1.0":
+  version "1.1.0"
+  resolved "http://localhost:4873/@yarnpkg%2flockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
+  integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
@@ -3706,7 +3711,7 @@ cross-spawn@7.0.3, cross-spawn@^7.0.0, cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-cross-spawn@^6.0.0:
+cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "http://localhost:4873/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
   integrity sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
@@ -5154,6 +5159,13 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+find-yarn-workspace-root@^2.0.0:
+  version "2.0.0"
+  resolved "http://localhost:4873/find-yarn-workspace-root/-/find-yarn-workspace-root-2.0.0.tgz#f47fb8d239c900eb78179aa81b66673eac88f7bd"
+  integrity sha512-1IMnbjt4KzsQfnhnzNd8wUEgXZ44IzZaZmnLYx7D5FZlaHt2gW20Cri8Q+E/t5tIj4+epTBub+2Zxu/vNILzqQ==
+  dependencies:
+    micromatch "^4.0.2"
+
 flat-cache@^3.0.4:
   version "3.0.4"
   resolved "http://localhost:4873/flat-cache/-/flat-cache-3.0.4.tgz#61b0338302b2fe9f957dcc32fc2a87f1c3048b11"
@@ -5242,7 +5254,7 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@^7.0.0:
+fs-extra@^7.0.0, fs-extra@^7.0.1:
   version "7.0.1"
   resolved "http://localhost:4873/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
   integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
@@ -7031,6 +7043,13 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "http://localhost:4873/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+klaw-sync@^6.0.0:
+  version "6.0.0"
+  resolved "http://localhost:4873/klaw-sync/-/klaw-sync-6.0.0.tgz#1fd2cfd56ebb6250181114f0a581167099c2b28c"
+  integrity sha512-nIeuVSzdCCs6TDPTqI8w1Yre34sSq7AkZ4B3sfOBbI2CgVSB4Du4aLQijFU2+lhAFCwt9+42Hel6lQNIv6AntQ==
+  dependencies:
+    graceful-fs "^4.1.11"
+
 kleur@^3.0.3:
   version "3.0.3"
   resolved "http://localhost:4873/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
@@ -7980,7 +7999,7 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@^7.0.2, open@^7.3.1:
+open@^7.0.2, open@^7.3.1, open@^7.4.2:
   version "7.4.2"
   resolved "http://localhost:4873/open/-/open-7.4.2.tgz#b8147e26dcf3e426316c730089fd71edd29c2321"
   integrity sha512-MVHddDVweXZF3awtlAS+6pgKLlm/JgxZ90+/NBurBoQctVOOB/zDdVjcyPzQ+0laDGbsWgrRkflI65sQeOgT9Q==
@@ -8038,6 +8057,11 @@ os-browserify@^0.3.0:
   version "0.3.0"
   resolved "http://localhost:4873/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
+
+os-tmpdir@~1.0.2:
+  version "1.0.2"
+  resolved "http://localhost:4873/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
+  integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
 p-each-series@^2.1.0:
   version "2.2.0"
@@ -8217,6 +8241,25 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "http://localhost:4873/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
   integrity sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ=
+
+patch-package@6.4.7:
+  version "6.4.7"
+  resolved "http://localhost:4873/patch-package/-/patch-package-6.4.7.tgz#2282d53c397909a0d9ef92dae3fdeb558382b148"
+  integrity sha512-S0vh/ZEafZ17hbhgqdnpunKDfzHQibQizx9g8yEf5dcVk3KOflOfdufRXQX8CSEkyOQwuM/bNz1GwKvFj54kaQ==
+  dependencies:
+    "@yarnpkg/lockfile" "^1.1.0"
+    chalk "^2.4.2"
+    cross-spawn "^6.0.5"
+    find-yarn-workspace-root "^2.0.0"
+    fs-extra "^7.0.1"
+    is-ci "^2.0.0"
+    klaw-sync "^6.0.0"
+    minimist "^1.2.0"
+    open "^7.4.2"
+    rimraf "^2.6.3"
+    semver "^5.6.0"
+    slash "^2.0.0"
+    tmp "^0.0.33"
 
 path-browserify@0.0.1:
   version "0.0.1"
@@ -10339,6 +10382,11 @@ sisteransi@^1.0.5:
   resolved "http://localhost:4873/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
+slash@^2.0.0:
+  version "2.0.0"
+  resolved "http://localhost:4873/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
+  integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
+
 slash@^3.0.0:
   version "3.0.0"
   resolved "http://localhost:4873/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
@@ -11022,6 +11070,13 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "http://localhost:4873/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tmp@^0.0.33:
+  version "0.0.33"
+  resolved "http://localhost:4873/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
+  integrity sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==
+  dependencies:
+    os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
   version "1.0.4"
